@@ -7,7 +7,7 @@ import static org.junit.jupiter.api.Assertions.*;
 public class LoginTest extends BaseTest {
 
     @Test
-    public void BlockedUser() {
+    public void blockedUser() {
         loginPage.open();
         loginPage.login("locked_out_user", "secret_sauce");
 
